@@ -8,5 +8,6 @@ module Pages
         element :btn_submit_login, '#SubmitLogin'
         element :btn_submit_create_account, '#SubmitCreate'
         element :error_msg, '[class="alert alert-danger"] li'
+        element :error_to_create_account, '#create_account_error'
     end
 end

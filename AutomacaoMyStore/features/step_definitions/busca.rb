@@ -5,7 +5,8 @@ Dado('que esteja na página home') do
 end
 
 Quando('buscar por um produto existente') do
-  @home_page.search_for('Dress')
+  product_for_search = Factory::Static.static_data('valid_product')
+  @home_page.search_for(product_for_search)
   @search_results_page = Pages::SearchResults.new
 end
 

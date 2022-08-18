@@ -18,12 +18,20 @@ Cenário: Fazer cadastro
     Então é exibida aba para criação de conta com mensagem
 
 @validate_create_account
-Esquema do Cenário: Validar o cadastro
-    Quando realizar o cadastro "<cadastro>"
-    Então é exibida mensagem aba para criação de conta com "<msg>"
+Esquema do Cenário: Validar o cadastro correto
+    Quando colocar o email para cadastro 
+    Então é exibida aba para criação de conta com "<msg>"
 
     Exemplos:
-    | cadastro  | msg                                                                   |
-    | invalido  | There are 8 errors                                                    |
-    | existente | ???                                                                   |
-    | válido    | (colocar algo que apareça na página a qual é direcionado, como nome)  |
+    | msg       |
+    | válido    |
+
+@validate_wrong_create_account
+Esquema do Cenário: Validar o cadastro incorreto
+    Quando colocar o email incorreto para cadastro '<email>'
+    Então é exibida mensagemd e erro "<msg>"
+
+    Exemplos:
+    | email               | msg                                                             |
+    | teste@.com          | Invalid email address.                                          |
+    | testekg@hotmail.com | An account using this email address has already been registered. |
