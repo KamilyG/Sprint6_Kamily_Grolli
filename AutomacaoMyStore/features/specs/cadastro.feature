@@ -34,4 +34,4 @@ Esquema do Cenário: Validar o cadastro incorreto
     Exemplos:
     | email               | msg                                                             |
     | teste@.com          | Invalid email address.                                          |
-    | testekg@hotmail.com | An account using this email address has already been registered. |
+    | testekg@hotmail.com | An account using this email address has already been registered.|

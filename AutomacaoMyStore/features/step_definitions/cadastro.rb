@@ -22,7 +22,6 @@ Quando('colocar o email para cadastro') do
 
   Então('é exibida mensagemd e erro {string}') do |msg|
     expect(@authentication_page).to have_error_to_create_account
-    binding.pry
   end
 
 
