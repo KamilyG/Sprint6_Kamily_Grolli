@@ -9,9 +9,9 @@ PARA personalizar minha conta
 
 Contexto: Estar logado e na página dos meus endereços
     Dado que esteja na página home
-    E que tenha aberto a página para login
-    E colocar o email 
-    E colocar e confirmar a senha
+    E que tenha aberto a página para login e cadastro
+    E colocar o email para login 
+    E colocar e confirmar a senha para login
     E tenha aberto a página dos meus endereços
 
 @edit_my_addresses
