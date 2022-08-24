@@ -9,12 +9,12 @@ PARA acessar as funcionalidades
 
 Contexto: Estar com a página de login aberta
     Dado que esteja na página home
-    E que tenha aberto a página para login
+    E que tenha aberto a página para login e cadastro
 
 @login_from_home
 Cenário: Fazer login
-    Quando colocar o email 
-    E colocar e confirmar a senha
+    Quando colocar o email para login
+    E colocar e confirmar a senha para login
     Então é exibida mensagem
 
 @validate_wrong_logins

@@ -7,7 +7,7 @@ COMO usuário do e-commerce My Store
 QUERO editar meus endereços
 PARA personalizar minha conta
 
-Contexto: Estar na página dos meus endereços
+Contexto: Estar logado e na página dos meus endereços
     Dado que esteja na página home
     E que tenha aberto a página para login
     E colocar o email 

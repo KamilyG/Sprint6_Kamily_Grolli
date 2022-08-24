@@ -27,4 +27,4 @@ Cenário: Excluir um produto do carrinho
 @checkout_from_cart
 Cenário: Finalizar a compra
     Quando finalizar a compra pelo carrinho
-    Então mostra msg
+    Então mostra mensagem de validação da finalização de compra

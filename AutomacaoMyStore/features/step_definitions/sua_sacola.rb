@@ -27,6 +27,6 @@ Quando('finalizar a compra pelo carrinho') do
     @order_page.btn_checkout_from_cart.click
   end
   
-  Então('mostra msg') do
+  Então('mostra mensagem de validação da finalização de compra') do
     expect(@order_page).to have_sign_in_step_checkout
   end
