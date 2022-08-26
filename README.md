@@ -1,5 +1,5 @@
 <h1 align="center">Challenge Sprint 6: Automação Web E-commerce Automation Practice</h1>
-<h5 align="center">Esse repositório foi criado para a postagem das atividaes de automação de testes do site Automation Practice, que serviu como base para realização dos testes pois se baseia em uma aplicação web e-commerce.</h5>
+<h5 align="center">Esse repositório foi criado para a postagem das atividades de automação de testes do site Automation Practice, que serviu como base para realização dos testes pois se baseia em uma aplicação web e-commerce.</h5>
 
 ## :inbox_tray: Pré Requisitos
 * Git: Para baixar a versão mais recente do Git entre no site https://git-scm.com/downloads
@@ -40,13 +40,13 @@ bundle exec cucumber -p default -t@regression
 * Site Prism
 * Selenium WebDriver
 * Chrome Driver
-
-## :bust_in_silhouette: Autora 
->[Kamily Grolli](https://github.com/KamilyG)
  
  ## :pushpin: Referências e agradecimetos
  >[Rhodrigo Lopes Picinini](https://github.com/RhodrigoLopesPicinini), pela prontidão em ajudar na implementação do arquivo env.rb para abrir o navegador na aba anônima.
 
  >[Júlia Parizotto Maciel](https://github.com/juliaparizotto), por ajudar com as diversas dúvidas que foram surgindo durante a evolução do projeto.
 
- >Além desses, vale agradecer a toda a minha equipe pela disposição, principalmente no nosso grupo de bate-papo, para a resolução de problemas e tirada de dúvidas. 
+ >Além desses, vale agradecer a toda a minha equipe pela disposição, principalmente no nosso grupo de bate-papo, para a resolução de problemas e tirada de dúvidas.  
+ 
+ ## :bust_in_silhouette: Autora 
+>[Kamily Grolli](https://github.com/KamilyG)
