@@ -9,7 +9,6 @@ Dado('tenha aberto a página dos meus endereços') do
     binding.pry
     @my_addresses_page.btn_edit_address.click
     @address_edit_page = Pages::EditAddress.new
-    @address_edit_page.load
     @address_edit_page.input_new_address.set ''
     @address_edit_page.input_new_address.set 'novo endereço'
     @address_edit_page.confirm_edited_address.click
